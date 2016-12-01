@@ -6,6 +6,7 @@ import time
 #from dbfolder import get_mail
 from selenium.common.exceptions import NoSuchElementException
 
+from dbfolder import get_mail
 from features.pages.page_selector import LoginPageLocator, HomePageLocator
 from features.steps import registration
 from features.steps import variables

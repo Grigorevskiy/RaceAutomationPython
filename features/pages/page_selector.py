@@ -24,12 +24,9 @@ class RegistrationPageLocator(object):
     CONF_PASS = (By.ID, "user_password_confirmation")
     SIGNUP_BUTTON = (By.XPATH, "//input[@value='Sign up']")
 
-
-
-
-
 class HomePageLocator(object):
 
     FULLNAME_USER = (By.CSS_SELECTOR, ".username")
     My_organizations_btn = (By.XPATH, "//*[contains(text(),'My Organizations')]")
     Create_new_organization_btn = (By.XPATH, "//*[contains(text(),'Create new organization')]")
+    Add_new_organization_btn = (By.ID, "submit-organization")

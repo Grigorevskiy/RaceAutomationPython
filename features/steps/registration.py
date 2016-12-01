@@ -2,6 +2,7 @@ import time
 from behave import given, when, then
 
 #from dbfolder.writeToFile import write_to_file
+from dbfolder.writeToFile import write_to_file
 from features.pages.page_selector import RegistrationPageLocator, HomePageLocator, LoginPageLocator
 
 def _generate_mail(email):
