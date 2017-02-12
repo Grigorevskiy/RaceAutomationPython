@@ -1,5 +1,5 @@
 import turtle
-o = 20
+o = 20333
 i = 150
 while i > 1:
 
